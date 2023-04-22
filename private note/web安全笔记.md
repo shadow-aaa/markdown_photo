@@ -271,14 +271,17 @@ nmap -O IP地址
 **技巧:**
 
 1. 通常网站管理员将两个地址(*.xiaodi.com和www.xiaodi.com)解析至同一ip，但搭建CDN服务时候，可能存在网站管理员只将其中一个(www.xiaodi.com)设置解析至CDN服务器，也就是说 两种访问方式访问的ip并不相同
-   
+
    **所以可以通过超级PING查询去掉了www.后的网站IP**,这样操作之后如果IP差不多了,那么就是**真实地址**,他们都是负载均衡.
+
 2. 将www改为m,转化为手机版网站---界面相同，域名不同---通过识别手机版来鉴别真实ip
+
 3. 验证获取到ip是否可信可以采用第三方的ip地址查询工具经行验证。
-https://get-site-ip.com/
+  https://get-site-ip.com/
+
 4. 有备案地址,验证服务器
 
-https://tools.ipip.net/cdn.php
+   https://tools.ipip.net/cdn.php
 
 openai的key**api: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**
 
@@ -324,18 +327,19 @@ GitHub那一项有奇效
 
 <img src="https://cdn.staticaly.com/gh/shadow-aaa/markdown_photo@main/20230421/e80ca80ec0737af03439aca46b7c9ae0.52ipskkuxbs0.webp" alt="e80ca80ec0737af03439aca46b7c9ae0" style="zoom:50%;" />
 
-- 搭建软件特征站点
-  
-  PHPstudy、宝塔,WANP等环境这样的集成环境搭建的危害就是泄露了详细的版本信息。
-  
-  抓包可以看出搭建软件(server)
-  
-  ~~server:nginx一般自己搭建的环境~~
-  ```
-  phpstudy软件搭建的数据包
-  server:apache openssl php
-  X-forward-by:php
-  ```
+6. 搭建软件特征站点
+
+​	PHPstudy、宝塔,WANP等环境这样的集成环境搭建的危害就是泄露了详细的版本信息。
+
+​	抓包可以看出搭建软件(server)
+
+​	~~server:nginx一般自己搭建的环境~~
+
+```
+phpstudy软件搭建的数据包
+server:apache openssl php
+X-forward-by:php
+```
 
 ## WAF防护分析
 
