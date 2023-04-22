@@ -160,7 +160,7 @@ nmap -O IP地址
 
 ### 数据库层面
 
-```
+```c++
 组合类型asp + access/mssql
 组合类型php + mysql 
 组合类型aspx+mssql
@@ -170,7 +170,7 @@ nmap -O IP地址
 
 常见数据库默认端口号
 
-```
+```c++
 关系型数据库
   mysql				3306
   sqlserver		1433
@@ -277,7 +277,7 @@ nmap -O IP地址
 2. 将www改为m,转化为手机版网站---界面相同，域名不同---通过识别手机版来鉴别真实ip
 
 3. 验证获取到ip是否可信可以采用第三方的ip地址查询工具经行验证。
-  https://get-site-ip.com/
+    https://get-site-ip.com/
 
 4. 有备案地址,验证服务器
 
@@ -369,4 +369,7 @@ nmap --script=http-waf-detec
 
 ## 第九天-APP及其它资产等
 
-写个测试
+### bp抓取手机数据包
+
+
+
