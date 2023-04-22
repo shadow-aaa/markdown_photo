@@ -283,8 +283,6 @@ nmap -O IP地址
 
    https://tools.ipip.net/cdn.php
 
-openai的key**api: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**
-
 ## 第八天-信息收集:架构,搭建,WAF
 
 ![58aedb437233f1f1e0b1de6e27ef272d](https://cdn.staticaly.com/gh/shadow-aaa/markdown_photo@main/20230421/58aedb437233f1f1e0b1de6e27ef272d.5i8or41hazo0.webp)
@@ -371,5 +369,5 @@ nmap --script=http-waf-detec
 
 ### bp抓取手机数据包
 
-
+逗我玩呢
 
